@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+@theme {
+  /* Mapping CSS Variables to Tailwind Utilities. */
+
+  --color-primary: var(--text-primary);
+  --color-secondary: var(--text-secondary);
+  --color-muted: var(--text-muted);
+  
+  --color-app: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-danger: var(--danger);
+  
+  --border-color-app: var(--border);
+}
+
+/* THEME VARIABLES */
+html[data-theme="dark"] {
+  --bg: #0f172b;
+  --surface: #1e2939;
+  --surface-elevated: #374151;
+  --border: rgba(255, 255, 255, 0.1);   /* subtle borders with transparency */
+
+  --text-primary: #ffffff;
+  --text-secondary: #d1d5db;
+  --text-muted: #9ca3af;
+
+  --accent: #0078d4;
+  --accent-hover: #0066b8;
+  --danger: #ef4444;
+}
+
+html[data-theme="light"] {
+  --bg: #f3f4f6;
+  --surface: #ffffff;
+  --surface-elevated: #e7e9ec;
+  --border: #adb0b6;
+
+  --text-primary: #222630;
+  --text-secondary: #32435a;
+  --text-muted: #6f737a;
+
+  --accent: #0078d4;
+  --accent-hover: #0066b8;
+  --danger: #dc2626;
+}
+
+/* --- GLOBAL STYLES --- */
+@layer base {
+  body {
+    @apply bg-app text-primary;
+  }
+}
+
+/* Markdown Prose Styles */
+.prose {
+  @apply text-primary;
+}
+
+.prose h1 {
+  @apply text-3xl font-bold text-primary mb-4 mt-6;
+}
+
+.prose h2 {
+  @apply text-2xl font-bold text-primary mb-3 mt-5;
+}
+
+.prose h3 {
+  @apply text-xl font-semibold text-primary mb-2 mt-4;
+}
+
+.prose p {
+  @apply mb-4 leading-relaxed;
+}
+
+.prose strong {
+  @apply font-bold text-primary;
+}
+
+.prose em {
+  @apply italic;
+}
+
+.prose ul {
+  @apply list-disc list-inside mb-4 space-y-1;
+}
+
+.prose ol {
+  @apply list-decimal list-inside mb-4 space-y-1;
+}
+
+.prose li {
+  @apply text-secondary;
+}
+
+.prose code {
+  @apply bg-surface-elevated px-1.5 py-0.5 rounded text-sm font-mono text-accent;
+}
+
+.prose pre {
+  @apply bg-surface-elevated border border-app rounded-lg p-4 mb-4 overflow-x-auto;
+}
+
+.prose pre code {
+  @apply bg-transparent p-0 text-sm;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-accent pl-4 italic text-muted mb-4;
+}
+
+.prose a {
+  @apply text-accent hover:underline;
+}
+
+.prose hr {
+  @apply border-app my-6;
+}
+
+.prose table {
+  @apply w-full border-collapse mb-4;
+}
+
+.prose th {
+  @apply bg-surface-elevated border border-app px-3 py-2 text-left font-semibold;
+}
+
+.prose td {
+  @apply border border-app px-3 py-2;
+}
+
+/* Task list checkbox styles */
+.prose input[type="checkbox"] {
+  @apply mr-2;
+}
+
+/* Smooth page transitions */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-enter {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Improve scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Selection color */
+::selection {
+  background: var(--accent);
+  color: white;
+}
