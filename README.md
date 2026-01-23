@@ -2,12 +2,12 @@
 
 A modern, full-featured productivity dashboard built with React, designed specifically for developers to manage tasks, notes, and track productivity.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://swati-dev-dash.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge&logo=github)](https://github.com/swati048/dev-dashboard)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-blue?style=for-the-badge)](https://swati-dev-dash.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub_Repo-181717?style=for-the-badge&logo=github)](https://github.com/swati048/dev-dashboard)
 
 ![Developer Dashboard Preview](./screenshots/home.png)
 
-**[🚀 View Live Demo](https://swati-dev-dash.vercel.app/)** | **[📖 Documentation](#-features)** | **[💻 Tech Stack](#-tech-stack)**
+**[🚀 View Live Demo](https://swati-dev-dash.vercel.app/)** | **[📖 Documentation](#features)** | **[💻 Tech Stack](#tech-stack)**
 
 ---
 
@@ -152,9 +152,6 @@ Demo Features:
 ---
 
 ## 📸 Screenshots
-
-### Home Page
-![Home](./screenshots/home.png)
 
 ### Dashboard
 ![Dashboard](./screenshots/dashboard.png)
