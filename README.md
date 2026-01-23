@@ -7,7 +7,7 @@ A modern, full-featured productivity dashboard built with React, designed specif
 
 ![Developer Dashboard Preview](./screenshots/home.png)
 
-**[🚀 View Live Demo](https://swati-dev-dash.vercel.app/)** | **[📖 Documentation](#-features)** | **[💻 Tech_Stack](#-tech-stack)**
+**[🚀 View Live Demo](https://swati-dev-dash.vercel.app/)** | **[📖 Documentation](#-features)** | **[💻 Tech Stack](#%EF%B8%8F-tech-stack)**
 
 ---
 
