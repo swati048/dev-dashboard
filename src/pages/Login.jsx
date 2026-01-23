@@ -65,7 +65,7 @@ export default function Login() {
         {
           email: "demo@devdashboard.app",
           name: "Demo User",
-          avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=DemoUser",
+          avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=adventurer",
         },
         false
       );

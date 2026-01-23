@@ -57,16 +57,17 @@ function TaskCard({ task, onEdit, onDelete }) {
       whileHover={{ scale: 1.02 }}
       className="group p-1"
     >
-      <Card className="bg-surface border-app hover:border-accent transition-all cursor-move p-4">
+      <Card className="bg-surface border-app hover:border-accent transition-all cursor-move p-4 overflow-hidden">
         {/* Header */}
         <div className="flex items-start justify-between mb-2">
-          <div className="flex items-start gap-2 flex-1">
-            <GripVertical className="text-muted mt-0.5 opacity-0 group-hover:opacity-100 transition-opacity" size={16} />
-            <h4 className="text-sm font-semibold text-primary line-clamp-2 flex-1">
+          <div className="flex items-start gap-2 flex-1 min-w-0">
+            <GripVertical className="text-muted mt-0.5 opacity-0 group-hover:opacity-100 
+              flex-shrink-0 transition-opacity" size={16} />
+            <h4 className="text-sm font-semibold text-primary line-clamp-2 break-words flex-1">
               {task.title}
             </h4>
           </div>
-          <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+          <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0">
             <button
               onClick={() => onEdit(task)}
               className="p-1 hover:bg-surface-elevated rounded text-muted hover:text-accent transition-colors"
@@ -84,20 +85,20 @@ function TaskCard({ task, onEdit, onDelete }) {
 
         {/* Description */}
         {task.description && (
-          <p className="text-xs text-muted mb-3 line-clamp-2">
+          <p className="text-xs text-muted mb-3 line-clamp-2 break-words">
             {task.description}
           </p>
         )}
 
         {/* Footer */}
-        <div className="flex items-center justify-between">
-          <span className={`text-xs px-2 py-1 rounded border ${getPriorityColor(task.priority)}`}>
+        <div className="flex items-center justify-between gap-2">
+          <span className={`text-xs px-2 py-1 rounded border flex-shrink-0 ${getPriorityColor(task.priority)}`}>
             {task.priority}
           </span>
-          <div className={`flex items-center gap-1 text-xs ${isOverdue ? "text-danger" : "text-muted"}`}>
-            {isOverdue && <AlertCircle size={12} />}
-            <Calendar size={12} />
-            <span>{new Date(task.dueDate).toLocaleDateString()}</span>
+          <div className={`flex items-center gap-1 text-xs flex-shrink-0 ${isOverdue ? "text-danger" : "text-muted"}`}>
+            {isOverdue && <AlertCircle size={12} className="flex-shrink-0" />}
+            <Calendar size={12} className="flex-shrink-0" />
+            <span className="whitespace-nowrap">{new Date(task.dueDate).toLocaleDateString()}</span>
           </div>
         </div>
       </Card>
