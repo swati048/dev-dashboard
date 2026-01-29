@@ -9,8 +9,6 @@ A modern, full-featured productivity dashboard built with React, designed specif
 
 **[🚀 View Live Demo](https://swati-dev-dash.vercel.app/)** | **[📖 Documentation](#-features)** | **[💻 Tech Stack](#%EF%B8%8F-tech-stack)**
 
----
-
 ## ✨ Features
 
 ### 📊 **Dashboard**
@@ -53,8 +51,6 @@ A modern, full-featured productivity dashboard built with React, designed specif
 - Activity statistics
 - Bio and preferences
 
----
-
 ## 🛠️ Tech Stack
 
 ### Frontend
@@ -75,8 +71,6 @@ A modern, full-featured productivity dashboard built with React, designed specif
 - **Build Tool:** Vite (fast HMR, optimized builds)
 - **Package Manager:** npm
 - **Deployment:** Vercel (auto-deploy from GitHub)
-
----
 
 ## 🚀 Getting Started
 
@@ -112,8 +106,6 @@ npm run build
 npm run preview
 ```
 
----
-
 ## 🎮 Try It Out
 
 **No signup required!** Click the "Try Demo Account" button on the login page to explore all features with pre-populated data.
@@ -123,8 +115,6 @@ Demo Features:
 - ✅ Interactive Kanban board
 - ✅ Full analytics dashboard
 - ✅ All features unlocked
-
----
 
 ## 🎨 Features Showcase
 
@@ -149,8 +139,6 @@ Demo Features:
 - Touch-friendly interface
 - Optimized for tablets
 
----
-
 ## 📸 Screenshots
 
 ### Dashboard
@@ -170,8 +158,6 @@ Demo Features:
 
 ### Settings
 ![Settings](./screenshots/setting.png)
-
----
 
 ## 🎯 Project Structure
 ```
@@ -200,8 +186,6 @@ src/
 └── main.jsx         # App entry point
 ```
 
----
-
 ## 💡 Why This Project?
 
 This project demonstrates:
@@ -214,8 +198,6 @@ This project demonstrates:
 - ✅ **Accessibility** - Keyboard navigation, ARIA labels
 - ✅ **Clean Code** - Consistent formatting, readable structure
 
----
-
 ## 🌟 Highlights
 
 - **No Backend Required** - Fully client-side application
@@ -226,28 +208,20 @@ This project demonstrates:
 - **Accessible** - ARIA labels and keyboard navigation
 - **Fast** - Vite for lightning-fast HMR
 
----
-
 ## 🤝 Contributing
 
 This is a portfolio project, but suggestions and feedback are welcome!
 
----
-
 ## 📄 License
 
 MIT License - feel free to use this project for learning and inspiration.
-
----
 
 ## 👨‍💻 Author
 
 **Swati Thakur**
 - GitHub: [@swati048](https://github.com/swati048)
 - LinkedIn: [Swati Thakur](https://linkedin.com/in/swati048)
-- Email: thakurswati048@gmail.com
-
----
+- Email: <thakurswati048@gmail.com>
 
 ## 🙏 Acknowledgments
 
