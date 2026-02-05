@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/React-18-61DAFB?logo=react)
+![Python](https://img.shields.io/badge/React-19-61DAFB?logo=react)
 ![Tailwind](https://img.shields.io/badge/Tailwind-v4-38B2AC?logo=tailwind-css)
 ![Zustand](https://img.shields.io/badge/State-Zustand-orange)
 ![LocalFirst](https://img.shields.io/badge/Data-Local--First-blueviolet)
