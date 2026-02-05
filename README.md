@@ -1,13 +1,26 @@
 # 🚀 Developer Dashboard
 
-A modern, full-featured productivity dashboard built with React, designed specifically for developers to manage tasks, notes, and track productivity.
+<div align="center">
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-blue?style=for-the-badge)](https://swati-dev-dash.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub_Repo-181717?style=for-the-badge&logo=github)](https://github.com/swati048/dev-dashboard)
+![Python](https://img.shields.io/badge/React-18-61DAFB?logo=react)
+![Tailwind](https://img.shields.io/badge/Tailwind-v4-38B2AC?logo=tailwind-css)
+![Zustand](https://img.shields.io/badge/State-Zustand-orange)
+![LocalFirst](https://img.shields.io/badge/Data-Local--First-blueviolet)
+![Vercel](https://img.shields.io/badge/Deployment-Vercel-green?logo=vercel)
 
-![Developer Dashboard Preview](./screenshots/home.png)
+**A high-performance, serverless productivity dashboard built with React for the modern developer.**
 
 **[🚀 View Live Demo](https://swati-dev-dash.vercel.app/)** | **[📖 Documentation](#-features)** | **[💻 Tech Stack](#%EF%B8%8F-tech-stack)**
+
+</div>
+
+## 💡 The Concept
+
+The **Developer Dashboard** is a sophisticated **client-side application** built specifically for developers to manage tasks, notes, and track productivity. It designed to centralize a developer's daily workflow by combining a Kanban board, Markdown notes, and real-time analytics into a single interface.
+
+> **Privacy-First:** Your data stays exactly where it belongs—on your machine. This project uses `localStorage` for persistence, meaning your tasks and notes are saved locally in your browser.
+
+![Developer Dashboard Preview](./screenshots/home.png)
 
 ## ✨ Features
 
@@ -134,7 +147,7 @@ Demo Features:
 - `Esc` - Close modals
 
 ### Responsive Design
-- Mobile-first approach
+- Primarily for Desktops
 - Works on all screen sizes
 - Touch-friendly interface
 - Optimized for tablets
@@ -236,6 +249,6 @@ MIT License - feel free to use this project for learning and inspiration.
 
 ⭐ **If you found this project helpful, please give it a star!** ⭐
 
-Made with ❤️ by Swati Thakur
+Made with ❤️ and ⚛️ React
 
 </div>
